@@ -1,7 +1,7 @@
 import pygame
 
 
-class Paddles():
+class Paddles:
     def __init__(self):
         self.display = pygame.display.get_surface()
         self.speed = 8

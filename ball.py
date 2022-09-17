@@ -1,7 +1,7 @@
 import pygame
 
 
-class Ball():
+class Ball:
     def __init__(self, pos):
         self.pos = pos
         self.display = pygame.display.get_surface()
